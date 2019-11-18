@@ -220,13 +220,13 @@ input[type=submit] {
  .container {
    width:100%;
  }
-
 }
 
 
 @media screen and (max-width:768px) {
   .container {
     width:100%;
+    style:block;
   }
   .header {
     position:static;
@@ -237,5 +237,8 @@ input[type=submit] {
 .container {
     width:100%;
   }
+.col-md-9 {
+  font-size:40px;
+}
 }
 
